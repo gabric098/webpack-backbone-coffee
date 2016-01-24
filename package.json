@@ -1,0 +1,24 @@
+{
+  "name": "webpack-backbone-coffee",
+  "version": "1.0.0",
+  "description": "Backbone project written in Coffeescript using webpack bundler",
+  "main": "webpack.config.js",
+  "repository": "https://github.com/gabric098/webpack-backbone-coffee.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "ENV=dev node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --content-base dist/"
+  },
+  "author": "Gabriele Antonini",
+  "license": "ISC",
+  "devDependencies": {
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.10.0",
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "backbone": "^1.2.3",
+    "npm-zepto": "^1.1.7",
+    "underscore": "^1.8.3"
+  }
+}
