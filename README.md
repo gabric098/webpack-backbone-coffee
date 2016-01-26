@@ -1,8 +1,17 @@
 # webpack-backbone-coffee
 
 Backbone project written in Coffeescript using webpack bundler.
+It uses SASS preprocessing for styles.
 
-## How to use it
+## Prerequisites
+1. Node installed globally
+
+## Initialize the project
 1. Run `npm install`.
-2. Run `npm run watch`.
-3. Open `http://localhost:8080/webpack-dev-server/` in your browser.
+
+## Development mode
+1. Run `npm run watch`.
+2. Open `http://localhost:8080/webpack-dev-server/` in your browser.
+
+## Build mode
+1. Run `npm run build`.
